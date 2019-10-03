@@ -1,0 +1,100 @@
+:root{
+    --white: #ebfffb;
+    --salmon: #ff5858;
+    --purple: #61234e;
+    --dark-blue: #032535;
+}
+.top-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--salmon);
+}
+.cloud-wrapper {
+    width: 100%;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+.mountain {
+    margin: 0 auto;
+}
+.cloud-wrapper > p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cloud-wrapper > h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+span {
+    text-decoration: underline;
+}
+.cloud1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    animation-name: bigfatcloud;
+    animation-duration: 12s;
+    animation-iteration-count: infinite; 
+}
+.cloud2 {
+    position: absolute;
+    top: 17%;
+    right: 40%;
+    animation-name: cloudgay;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bigfatcloud {
+    0% {left: 500px}
+    50% {left: 650px}
+    100% {left: 500px}
+}
+@keyframes cloudgay {
+    0% {top: 100px; right: 500px}
+    50% {top: 200px; right: 700px}
+    100% {top: 100px; right: 500px}
+}
+.middle-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile img {
+    width: 100px;
+    padding: 2rem 0;
+}
+.profile h2 {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.profile p {
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 3rem;
+}
+.skills {
+    border: 2px solid red;
+}
+.skills h2 {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.skills h3 {
+    font-size:2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.footballimg {
+    width: 100px;
+    float: left;
+    margin-right: 3rem;
+}
+.skills-row {
+    text-align: left;
+    margin-bottom: 2rem;
+}
